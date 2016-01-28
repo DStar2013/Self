@@ -1,0 +1,14 @@
+1、两个字符串，取出这两个字符串出现的相同的字母
+   'abc123' 'acee1' => 'ac1'
+2、一个json的object对象，怎么样转化为string字符串（手动实现stringJSON的方法）
+   考虑到json的层级关系，多层遍历中递归的使用
+3、js值的传递和对象值的传递（值的传递是拷贝的更改、对象的传递是指向同一个地址）
+   A、var a = 1; var b = a; b++; 判断a的值？
+   B、var a = "cc"; var b = a; b+='c';  a？
+   C、var a = {val: 1}
+    function c(v) { v.val++ }; c(a);	 a？
+   D、var a = {val: 1};var b = a; b.val++;  a？
+
+4、jQuery对动态结构的绑定,on live delegate使用的区分和不同
+5、聊聊最有印象的项目。
+6、做个自我介绍
