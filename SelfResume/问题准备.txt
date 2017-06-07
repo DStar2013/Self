@@ -1,0 +1,33 @@
+﻿1. React相关
+
+a. 生命周期相关
+  组件被实例化，getInitialState => componentWillMount => render => componentDidMount
+
+  每次state发生更改，componentWillReceiveProps => shouldComponentUpdate => componentWillUpdate => render => componentDidUpdate
+
+
+render方法会创建一个虚拟DOM树，这也是React高效的原因
+组件的props属性可以通过父组件来更改，这个时候会调用componentWillReceiveProps，可以在这里设置state的值
+shouldComponentUpdate(nextProps, nextState),返回false的话，后面的WillUpdate等不会执行(这里不允许在更新props或state)
+
+
+
+2. Angular相关
+
+
+
+3. 项目相关
+
+
+
+
+
+
+
+阿里飞猪面试点
+1. 约定时间，准备充分在打仗
+2. 对飞猪有关注和了解，积极正面的方向
+3. 解决不了的问题，提出自己可能的解决方案
+4. 说自己的薪资，对薪资的要求，更加看重阿里的平台，和对自己的未来发展的帮助
+5. 底层代码&基础
+

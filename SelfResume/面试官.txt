@@ -1,0 +1,21 @@
+1、ajax的实现原理
+   xmlHttpRequest的lv2级别
+     Lv2指的是xmlHttpRequest新增了许多API方法弥补老版的功能不足
+     	a、可以设置Http请求的时限（xhr.timeout、xhr.ontimeout）
+     	b、可以使用FormData对象管理（可以新建一个form表单，post）
+	c、可以上传文件。
+	d、可以请求不同域名下的数据（跨域请求）。
+	e、可以获取服务器端的二进制数据。
+	f、可以获得数据传输的进度信息。（传送数据的时候，有一个progress事件，用来返回进度信息。）
+
+      状态码的意义
+	0: xmlHttpRequest对象创建
+	1: Open 2: Send 3:Receving 4: Loaded
+=============	
+	100: 服务端已接收到请求,客户端需继续发送
+	2xx: 成功
+	3xx: 重定向
+	404: 
+	5xx: 服务端错误
+
+2.
